@@ -1,0 +1,148 @@
+﻿           
+            var a = dt.Rows.Count;
+            var b = dt.Columns.Count;
+
+            gridViewVeriSeti.Columns.Clear();
+
+            DataView view = new DataView(dt);   //gridControlde veri görüntülemek için dataSource olarak kullanılıyor
+
+            bindingSourceVeriSeti.DataSource = view;
+            //gridControlVeriSeti.DataSource = bindingSourceVeriSeti;
+            gridControlVeriSeti.Refresh();
+            gridViewVeriSeti.RefreshData();
+            gridViewVeriSeti.BestFitColumns(true);
+
+
+            for (int i = 0; i < a; i++) //satırlarda gezinti için
+            {
+                for (int j = 0; j < b; j++) //sütunlarda gezinti için
+                {
+                    msg += dt.Rows[i][j] + " ";
+
+                }
+                msg += "\n";
+            }
+
+            MessageBox.Show(msg);
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // Create a DataTable with one column.
+    DataTable table = new DataTable("Table");
+    DataColumn column = new DataColumn("Column");
+    table.Columns.Add(column);
+
+    // Add ten rows.
+    DataRow row;
+    for (int i = 0; i < 10; i++)
+    {
+        row = table.NewRow();
+        row["Column"] = "item " + i;
+        table.Rows.Add(row);
+    }
+
+    table.AcceptChanges();
+    // Create a DataView with the table.
+    DataView view = new DataView(table);
+
+    // Change one row's value:
+    table.Rows[1]["Column"] = "Hello";
+
+    // Add one row:
+    row = table.NewRow();
+    row["Column"] = "World";
+    table.Rows.Add(row);
+
+    // Set the RowStateFilter to display only added
+    // and modified rows.
+    view.RowStateFilter = DataViewRowState.Added |
+        DataViewRowState.ModifiedCurrent;
+
+    // Print those rows. Output includes "Hello" and "World".
+    PrintView(view, "ModifiedCurrent and Added");
+
+    // Set filter to display only originals of modified rows.
+    view.RowStateFilter = DataViewRowState.ModifiedOriginal;
+    PrintView(view, "ModifiedOriginal");
+
+    // Delete three rows.
+    table.Rows[1].Delete();
+    table.Rows[2].Delete();
+    table.Rows[3].Delete();
+
+    // Set the RowStateFilter to display only deleted rows.
+    view.RowStateFilter = DataViewRowState.Deleted;
+    PrintView(view, "Deleted");
+
+    // Set filter to display only current rows.
+    view.RowStateFilter = DataViewRowState.CurrentRows;
+    PrintView(view, "Current");
+
+    // Set filter to display only unchanged rows.
+    view.RowStateFilter = DataViewRowState.Unchanged;
+    PrintView(view, "Unchanged");
+
+    // Set filter to display only original rows.
+    // Current values of unmodified rows are also returned.
+    view.RowStateFilter = DataViewRowState.OriginalRows;
+    PrintView(view, "OriginalRows");
+
+
+
+
+private static void PrintView(DataView view, string label)
+{
+    Console.WriteLine("\n" + label);
+    for (int i = 0; i < view.Count; i++)
+    {
+        Console.WriteLine(view[i]["Column"]);
+        Console.WriteLine("DataViewRow.RowVersion: {0}",
+            view[i].RowVersion);
+    }
+}
+
+/////////////////////////////////////////////////////////////////////
+DataTable dt = new DataTable();
+dt.Columns.Add("Id");
+dt.Columns.Add("Name");
+dt.Columns.Add("Email");
+dt.TableName = "MasterTable";
+
+//insert into DataTable
+dt.Rows.Add("1", "Arka", "arka@gmail.com");
+dt.Rows.Add("2", "Anusua", "anu@gmail.com");
+dt.Rows.Add("3", "Sayantani", "sayantani@gmail.com");
+
+//Creating another DataTable to copy
+DataTable dt_copy = new DataTable();
+dt.TableName = "CopyTable";
+dt_copy = dt.Copy();
+//-----------------------------------------------------------------------------------------
+
+			var a = dt.Rows.Count;
+            var b = dt.Columns.Count;
+
+            List<DataRow> query = (from r in dt.AsEnumerable() select r).ToList();
+            bindingSourceVeriSeti.DataSource = query;
+            gridControlVeriSeti.DataSource = bindingSourceVeriSeti;
+            gridControlVeriSeti.Refresh();
+            gridViewVeriSeti.RefreshData();
+
+            foreach (var item in query)
+            {
+                var q = item.Field<int>(0);
+                var x0 = item.Field<int>(1);
+                var x1 = item.Field<int>(2);
+                var x2 = item.Field<int>(3);
+                var Y = item.Field<int>(4);
+            }
