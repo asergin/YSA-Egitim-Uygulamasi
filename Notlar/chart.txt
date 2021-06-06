@@ -1,0 +1,12 @@
+﻿chart üzerinde mouse ile gezinmek için scroll özelliği true ayarlanmalı
+
+Yönetilen tiplerde fixed ile pointer kullanımı
+unsafe
+{
+	fixed(byte* ptrDizi = &pixeller[0])
+    {
+		    *(ptrDizi+1) = 2;
+
+
+    }
+}

@@ -1,0 +1,28 @@
+﻿<XtraSerializer version="20.1.3.0">
+  <Items>
+    <Item1 ItemKind="DiagramRoot" Theme="NoTheme" SelectedStencils="BasicShapes, BasicFlowchartShapes">
+      <Children>
+        <Item1 Position="360,66.8224334716797" Size="136,306.224426269531" Padding="8,8,8,8" Shape="StandardContainers.Classic" Header="ÇIKIŞ KATMANI" ShowHeader="true" HeaderPadding="8,8,8,8" ItemKind="DiagramContainer">
+          <Children>
+            <Item1 Position="41.25,88.8309631347656" Size="37.5,37.5" Foreground="#FFF00000" Stroke="#FFF00000" Shape="BasicFlowchartShapes.OnPageReference" Content="Y" ItemKind="DiagramShape" />
+          </Children>
+        </Item1>
+        <Item2 Position="160,68.8224334716797" Size="136,302.224426269531" Padding="8,8,8,8" Shape="StandardContainers.Classic" Header="GİRİŞ KATMANI" ShowHeader="true" HeaderPadding="12,12,12,12" ItemKind="DiagramContainer">
+          <Children>
+            <Item1 Position="22,-1.1444091796875E-05" Size="37.5,37.5" FontSize="14" Foreground="#FFF00000" Stroke="#FFF00000" Shape="BasicFlowchartShapes.OnPageReference" Content="x0" ItemKind="DiagramShape" />
+            <Item2 Position="22,44.4687423706055" Size="37.5,37.5" FontSize="16" Foreground="#FF0070C0" Stroke="#FF0070C0" Shape="BasicFlowchartShapes.OnPageReference" Content="x1" ItemKind="DiagramShape" />
+            <Item3 Position="22,90" Size="37.5,37.5" FontSize="16" Foreground="#FF7030A0" Stroke="#FF7030A0" Shape="BasicFlowchartShapes.OnPageReference" Content="x2" ItemKind="DiagramShape" />
+            <Item4 Position="22,134.46875" Size="37.5,37.5" FontSize="16" Foreground="#FF00B050" Stroke="#FF00B050" Shape="BasicFlowchartShapes.OnPageReference" Content="x3" ItemKind="DiagramShape" />
+            <Item5 Position="22,180" Size="37.5,37.5" FontSize="16" Shape="BasicFlowchartShapes.OnPageReference" Content="x4" ItemKind="DiagramShape" />
+          </Children>
+        </Item2>
+        <Item3 Stroke="#FFF00000" Points="(Empty)" Type="Straight" Content="w00" ItemKind="DiagramConnector" BeginItem="1,0" EndItem="0,0" BeginPoint="97.5,130.5625" EndPoint="649.25,219.934646606445" BeginItemPointIndex="1" EndItemPointIndex="3" />
+        <Item4 Stroke="#FF0070C0" Points="(Empty)" Type="Straight" Content="w01" ItemKind="DiagramConnector" BeginItem="1,1" EndItem="0,0" BeginPoint="117.5,186.411926269531" EndPoint="649.25,219.934646606445" BeginItemPointIndex="1" EndItemPointIndex="3" />
+        <Item5 Foreground="#FF7030A0" Stroke="#FF7030A0" Points="(Empty)" Type="Straight" Content="w02" ItemKind="DiagramConnector" BeginItem="1,2" EndItem="0,0" BeginPoint="117.5,231.943176269531" EndPoint="649.25,219.934646606445" BeginItemPointIndex="1" EndItemPointIndex="3" />
+        <Item6 Foreground="#FF00B050" Stroke="#FF00B050" Points="(Empty)" Type="Straight" Content="w03" ItemKind="DiagramConnector" BeginItem="1,3" EndItem="0,0" BeginPoint="117.5,276.411926269531" EndPoint="649.25,219.934646606445" BeginItemPointIndex="1" EndItemPointIndex="3" />
+        <Item7 Points="(Empty)" Type="Straight" Content="w04" ItemKind="DiagramConnector" BeginItem="1,4" EndItem="0,0" BeginPoint="117.5,321.943176269531" EndPoint="649.25,219.934646606445" BeginItemPointIndex="1" EndItemPointIndex="3" />
+        <Item8 Stroke="#FFF00000" Points="(Empty)" Type="Straight" ItemKind="DiagramConnector" BeginItem="0,0" BeginPoint="886.75,218.346588134766" EndPoint="530,219.934646606445" BeginItemPointIndex="1" />
+      </Children>
+    </Item1>
+  </Items>
+</XtraSerializer>

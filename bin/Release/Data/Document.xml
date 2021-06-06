@@ -1,0 +1,29 @@
+﻿<XtraSerializer version="20.1.3.0">
+  <Items>
+    <Item1 ItemKind="DiagramRoot" ShowGrid="false" Theme="NoTheme" SelectedStencils="BasicShapes, BasicFlowchartShapes">
+      <Children>
+        <Item1 Position="230,210" Size="100,37.5" Shape="BasicFlowchartShapes.StartEnd" Content="BAŞLA" ItemKind="DiagramShape" />
+        <Item2 Position="220,360" Size="120,90" Shape="BasicFlowchartShapes.Decision" Content="VERİ ALINDI MI?" ItemKind="DiagramShape" />
+        <Item3 BeginItemPointIndex="2" EndItemPointIndex="0" Points="(Empty)" ItemKind="DiagramConnector" BeginItem="0" EndItem="1" BeginPoint="280,247.5" EndPoint="280,360" KeepMiddlePoints="true" />
+        <Item4 Position="207.5,520" Size="145,90" Shape="BasicFlowchartShapes.Decision" Content="VERİ İMZASI &#xD;&#xA;DOĞRU MU?" ItemKind="DiagramShape" />
+        <Item5 BeginItemPointIndex="2" EndItemPointIndex="0" Points="(Empty)" Content="EVET" ItemKind="DiagramConnector" BeginItem="1" EndItem="3" BeginPoint="280,450" EndPoint="280,520" />
+        <Item6 Position="420,527.5" Size="100,75" Shape="BasicFlowchartShapes.Subprocess" Content="PORT BUFFERİNİ TEMİZLE" ItemKind="DiagramShape" />
+        <Item7 BeginItemPointIndex="1" EndItemPointIndex="3" Points="(Empty)" Content="HAYIR" ItemKind="DiagramConnector" BeginItem="3" EndItem="5" BeginPoint="365,565" EndPoint="420,565" />
+        <Item8 BeginItemPointIndex="0" EndItemPointIndex="1" Points="470,405" ItemKind="DiagramConnector" BeginItem="5" EndItem="1" BeginPoint="470,527.5" EndPoint="340,405" />
+        <Item9 Position="195,660" Size="170,60" Shape="BasicFlowchartShapes.Process" Content="PİXEL DİZİSİNE&#xD;&#xA;PİXEL SATIRINI EKLE" ItemKind="DiagramShape" />
+        <Item10 BeginItemPointIndex="2" EndItemPointIndex="0" Points="(Empty)" Content="EVET" ItemKind="DiagramConnector" BeginItem="3" EndItem="8" BeginPoint="280,610" EndPoint="280,660" />
+        <Item11 Position="730,210" Size="100,37.5" Shape="BasicFlowchartShapes.StartEnd" Content="BAŞLA" ItemKind="DiagramShape" />
+        <Item12 BeginItemPointIndex="3" EndItemPointIndex="0" Points="200,405 200,330 280,330" Content="HAYIR" ItemKind="DiagramConnector" BeginItem="1" EndItem="1" BeginPoint="220,405" EndPoint="280,360" KeepMiddlePoints="true" />
+        <Item13 BeginItemPointIndex="2" EndItemPointIndex="1" Points="280,737 550,737 550,405" ItemKind="DiagramConnector" BeginItem="8" EndItem="1" BeginPoint="280,720" EndPoint="340,405" KeepMiddlePoints="true" />
+        <Item14 Position="695,310" Size="170,90" Shape="BasicFlowchartShapes.Decision" Content="PİXEL DİZİSİNDE &#xD;&#xA;SATIR VAR MI?" ItemKind="DiagramShape" />
+        <Item15 BeginItemPointIndex="3" EndItemPointIndex="0" Points="678,355 678,293 780,293" Content="HAYIR" ItemKind="DiagramConnector" BeginItem="13" EndItem="13" BeginPoint="695,355" EndPoint="780,310" />
+        <Item16 BeginItemPointIndex="2" EndItemPointIndex="0" Points="(Empty)" ItemKind="DiagramConnector" BeginItem="10" EndItem="13" BeginPoint="780,247.5" EndPoint="780,310" />
+        <Item17 Position="695,450" Size="170,60" Shape="BasicFlowchartShapes.Process" Content="RESİM KONTROLÜNE&#xD;&#xA;(PICTUREBOX)&#xD;&#xA;PİXEL SATIRINI YAZ" ItemKind="DiagramShape" />
+        <Item18 BeginItemPointIndex="2" EndItemPointIndex="0" Points="(Empty)" Content="EVET" ItemKind="DiagramConnector" BeginItem="13" EndItem="16" BeginPoint="780,400" EndPoint="780,450" />
+        <Item19 Position="695,542.5" Size="170,67.5" Shape="BasicFlowchartShapes.Process" Content="YAZILAN PİXEL SATIRINI &#xD;&#xA;PİXEL DİZİSİNDEN SİL" ItemKind="DiagramShape" />
+        <Item20 BeginItemPointIndex="2" EndItemPointIndex="0" Points="(Empty)" ItemKind="DiagramConnector" BeginItem="16" EndItem="18" BeginPoint="780,510" EndPoint="780,542.5" />
+        <Item21 BeginItemPointIndex="2" EndItemPointIndex="1" Points="780,660 920,660 920,355" ItemKind="DiagramConnector" BeginItem="18" EndItem="13" BeginPoint="780,617.5" EndPoint="865,355" KeepMiddlePoints="true" />
+      </Children>
+    </Item1>
+  </Items>
+</XtraSerializer>

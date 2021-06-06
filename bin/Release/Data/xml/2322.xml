@@ -1,0 +1,55 @@
+﻿<XtraSerializer version="20.1.3.0">
+  <Items>
+    <Item1 ItemKind="DiagramRoot" Theme="NoTheme" SelectedStencils="BasicShapes, BasicFlowchartShapes">
+      <Children>
+        <Item1 Position="300,50.1306762695313" Size="136,349.869323730469" Padding="8,8,8,8" Shape="StandardContainers.Classic" Header="GİZLİ KATMAN 1" ShowHeader="true" HeaderPadding="8,8,8,8" ItemKind="DiagramContainer">
+          <Children>
+            <Item1 Position="28.25,54.338077545166" Size="37.5,37.5" Foreground="#FFF00000" Stroke="#FFF00000" Shape="BasicFlowchartShapes.OnPageReference" Content="h00" ItemKind="DiagramShape" />
+            <Item2 Position="28.25,110.056831359863" Size="37.5,37.5" Foreground="#FF0070C0" Stroke="#FF0070C0" Shape="BasicFlowchartShapes.OnPageReference" Content="h01" ItemKind="DiagramShape" />
+            <Item3 Position="28.25,175.588073730469" Size="37.5,37.5" Foreground="#FF7030A0" Stroke="#FF7030A0" Shape="BasicFlowchartShapes.OnPageReference" Content="h02" ItemKind="DiagramShape" />
+          </Children>
+        </Item1>
+        <Item2 Position="26,84.4190368652344" Size="136,302.224426269531" Padding="8,8,8,8" Shape="StandardContainers.Classic" Header="GİRİŞ KATMANI" ShowHeader="true" HeaderPadding="12,12,12,12" ItemKind="DiagramContainer">
+          <Children>
+            <Item1 Position="22,-1.1444091796875E-05" Size="37.5,37.5" FontSize="14" Foreground="#FFF00000" Stroke="#FFF00000" Shape="BasicFlowchartShapes.OnPageReference" Content="x0" ItemKind="DiagramShape" />
+            <Item2 Position="22,44.4687423706055" Size="37.5,37.5" FontSize="16" Foreground="#FF0070C0" Stroke="#FF0070C0" Shape="BasicFlowchartShapes.OnPageReference" Content="x1" ItemKind="DiagramShape" />
+            <Item3 Position="22,90" Size="37.5,37.5" FontSize="16" Foreground="#FF7030A0" Stroke="#FF7030A0" Shape="BasicFlowchartShapes.OnPageReference" Content="x2" ItemKind="DiagramShape" />
+          </Children>
+        </Item2>
+        <Item3 Stroke="#FFF00000" Points="(Empty)" Type="Straight" ItemKind="DiagramConnector" BeginItem="1,0" EndItem="0,0" BeginPoint="97.5,130.5625" EndPoint="260.848480224609,118.562492370605" BeginItemPointIndex="1" EndItemPointIndex="3" />
+        <Item4 Stroke="#FFF00000" Points="(Empty)" Type="Straight" ItemKind="DiagramConnector" BeginItem="1,0" EndItem="0,2" BeginPoint="97.5,130.5625" EndPoint="260.848480224609,298.5625" BeginItemPointIndex="1" EndItemPointIndex="3" />
+        <Item5 Stroke="#FFF00000" Points="(Empty)" Type="Straight" ItemKind="DiagramConnector" BeginItem="1,0" EndItem="0,1" BeginPoint="117.5,141.943176269531" EndPoint="516.25,170.130676269531" BeginItemPointIndex="1" EndItemPointIndex="3" />
+        <Item6 Stroke="#FF0070C0" Points="(Empty)" Type="Straight" ItemKind="DiagramConnector" BeginItem="1,1" EndItem="0,0" BeginPoint="117.5,186.411926269531" EndPoint="516.25,114.411926269531" BeginItemPointIndex="1" EndItemPointIndex="3" />
+        <Item7 Stroke="#FF0070C0" Points="(Empty)" Type="Straight" ItemKind="DiagramConnector" BeginItem="1,1" EndItem="0,1" BeginPoint="117.5,186.411926269531" EndPoint="516.25,170.130676269531" BeginItemPointIndex="1" EndItemPointIndex="3" />
+        <Item8 Stroke="#FF0070C0" Points="(Empty)" Type="Straight" ItemKind="DiagramConnector" BeginItem="1,1" EndItem="0,2" BeginPoint="117.5,186.411926269531" EndPoint="516.25,235.661926269531" BeginItemPointIndex="1" EndItemPointIndex="3" />
+        <Item9 Foreground="#FF7030A0" Stroke="#FF7030A0" Points="(Empty)" Type="Straight" ItemKind="DiagramConnector" BeginItem="1,2" EndItem="0,0" BeginPoint="117.5,231.943176269531" EndPoint="456.25,114.411926269531" BeginItemPointIndex="1" EndItemPointIndex="3" />
+        <Item10 Foreground="#FF7030A0" Stroke="#FF7030A0" Points="(Empty)" Type="Straight" ItemKind="DiagramConnector" BeginItem="1,2" EndItem="0,1" BeginPoint="117.5,231.943176269531" EndPoint="456.25,170.130676269531" BeginItemPointIndex="1" EndItemPointIndex="3" />
+        <Item11 Foreground="#FF7030A0" Stroke="#FF7030A0" Points="(Empty)" Type="Straight" ItemKind="DiagramConnector" BeginItem="1,2" EndItem="0,2" BeginPoint="117.5,231.943176269531" EndPoint="456.25,235.661926269531" BeginItemPointIndex="1" EndItemPointIndex="3" />
+        <Item12 Position="550,50" Size="152,350" Padding="8,8,8,8" Shape="StandardContainers.Classic" Header="GİZLİ KATMAN 2" ShowHeader="true" HeaderPadding="8,8,8,8" ItemKind="DiagramContainer">
+          <Children>
+            <Item1 Position="39.8150634765625,54.4687538146973" Size="37.5,37.5" Foreground="#FFF00000" Stroke="#FFF00000" Shape="BasicFlowchartShapes.OnPageReference" Content="h10" ItemKind="DiagramShape" />
+            <Item2 Position="39.8150634765625,110.1875" Size="37.5,37.5" Foreground="#FF0070C0" Stroke="#FF0070C0" Shape="BasicFlowchartShapes.OnPageReference" Content="h11" ItemKind="DiagramShape" />
+          </Children>
+        </Item12>
+        <Item13 Stroke="#FFF00000" Points="(Empty)" Type="Straight" ItemKind="DiagramConnector" BeginItem="0,0" EndItem="11,0" BeginPoint="503.75,114.411926269531" EndPoint="859.5,114.411918640137" BeginItemPointIndex="1" EndItemPointIndex="3" />
+        <Item14 Stroke="#FFF00000" Points="(Empty)" Type="Straight" ItemKind="DiagramConnector" BeginItem="0,0" EndItem="11,1" BeginPoint="503.75,114.411926269531" EndPoint="859.5,170.130676269531" BeginItemPointIndex="1" EndItemPointIndex="3" />
+        <Item15 Stroke="#FF0070C0" Points="(Empty)" Type="Straight" ItemKind="DiagramConnector" BeginItem="0,1" EndItem="11,0" BeginPoint="503.75,170.130676269531" EndPoint="859.5,114.411918640137" BeginItemPointIndex="1" EndItemPointIndex="3" />
+        <Item16 Stroke="#FF0070C0" Points="(Empty)" Type="Straight" ItemKind="DiagramConnector" BeginItem="0,1" EndItem="11,1" BeginPoint="503.75,170.130676269531" EndPoint="859.5,170.130676269531" BeginItemPointIndex="1" EndItemPointIndex="3" />
+        <Item17 Foreground="#FF7030A0" Stroke="#FF7030A0" Points="(Empty)" Type="Straight" ItemKind="DiagramConnector" BeginItem="0,2" EndItem="11,0" BeginPoint="503.75,235.661926269531" EndPoint="859.5,114.411918640137" BeginItemPointIndex="1" EndItemPointIndex="3" />
+        <Item18 Foreground="#FF7030A0" Stroke="#FF7030A0" Points="(Empty)" Type="Straight" ItemKind="DiagramConnector" BeginItem="0,2" EndItem="11,1" BeginPoint="503.75,235.661926269531" EndPoint="859.5,170.130676269531" BeginItemPointIndex="1" EndItemPointIndex="3" />
+        <Item19 Position="800,46.4687538146973" Size="136,306.224426269531" Padding="8,8,8,8" Shape="StandardContainers.Classic" Header="ÇIKIŞ KATMANI" ShowHeader="true" HeaderPadding="8,8,8,8" ItemKind="DiagramContainer">
+          <Children>
+            <Item1 Position="39.8150634765625,52.4687538146973" Size="37.5,37.5" Foreground="#FFF00000" Stroke="#FFF00000" Shape="BasicFlowchartShapes.OnPageReference" Content="Y0" ItemKind="DiagramShape" />
+            <Item2 Position="39.8150634765625,158" Size="37.5,37.5" Foreground="#FF0070C0" Stroke="#FF0070C0" Shape="BasicFlowchartShapes.OnPageReference" Content="Y1" ItemKind="DiagramShape" />
+          </Children>
+        </Item19>
+        <Item20 Stroke="#FFF00000" Points="(Empty)" Type="Straight" ItemKind="DiagramConnector" BeginItem="11,0" EndItem="18,0" BeginPoint="743.75,114.28125" EndPoint="947.815063476563,163.21875" BeginItemPointIndex="1" EndItemPointIndex="3" />
+        <Item21 Stroke="#FFF00000" Points="(Empty)" Type="Straight" ItemKind="DiagramConnector" BeginItem="11,0" EndItem="18,1" BeginPoint="743.75,114.28125" EndPoint="947.815063476563,268.75" BeginItemPointIndex="1" EndItemPointIndex="3" />
+        <Item22 Stroke="#FF0070C0" Points="(Empty)" Type="Straight" ItemKind="DiagramConnector" BeginItem="11,1" EndItem="18,0" BeginPoint="743.75,170" EndPoint="947.815063476563,163.21875" BeginItemPointIndex="1" EndItemPointIndex="3" />
+        <Item23 Stroke="#FF0070C0" Points="(Empty)" Type="Straight" ItemKind="DiagramConnector" BeginItem="11,1" EndItem="18,1" BeginPoint="743.75,170" EndPoint="947.815063476563,268.75" BeginItemPointIndex="1" EndItemPointIndex="3" />
+        <Item24 Stroke="#FFF00000" Points="(Empty)" Type="Straight" ItemKind="DiagramConnector" BeginItem="18,0" BeginPoint="885.315063476563,163.21875" EndPoint="970,163.21875" BeginItemPointIndex="1" />
+        <Item25 Stroke="#FF0070C0" Points="(Empty)" Type="Straight" ItemKind="DiagramConnector" BeginItem="18,1" BeginPoint="885.315063476563,268.75" EndPoint="970,268.75" BeginItemPointIndex="1" />
+      </Children>
+    </Item1>
+  </Items>
+</XtraSerializer>
