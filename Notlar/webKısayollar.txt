@@ -1,8 +1,0 @@
-﻿Chart yardım
-https://docs.devexpress.com/WindowsForms/5881/controls-and-libraries/chart-control/chart-elements/diagram/panes/pane-layout
-
-https://docs.devexpress.com/WindowsForms/4863/controls-and-libraries/chart-control/examples/chart-elements/how-to-create-a-multi-pane-chart
-
-
-
-
